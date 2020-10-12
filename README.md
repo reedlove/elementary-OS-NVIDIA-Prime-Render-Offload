@@ -14,12 +14,17 @@ As of this writing, this script only disables the system's gpu-manager and nvidi
 I just started this project so it's pretty basic.
 
 Installation:
+
 1.) From the terminal, change the scripts to executable.
+
 2.) While still in the terminal, run enable_prime_render_offload.sh to modify your system, enabling Prime Render Offload.
+
 3.) Restart your machine.
 
 Uninstallation:
+
 1.) From the terminal, run "disable_prime_render_offload.sh".
+
 2.) Restart your computer.
 
 The disable script restores your elementary OS installation back to its original setup.
