@@ -5,7 +5,7 @@ YOU MUST USE THE LATEST PROPRIETARY NVIDIA GRAPHICS DRIVERS PROVIDED BY ELEMENTA
 
 These can be installed via the AppCenter.
 
-As of this writing, I am using the NVIDIA 450.80.2
+As of this writing, I am using the NVIDIA 450.80.2 drivers that are available through elementary OS.
 
 What this means to the user is that it enables NVIDIA's built-in functionality that is similar to how optimus works on Windows without the need for Bumblebee or any other odd pass-through solutions. That is to say, your desktop would be driven by your integrated intel GPU by default, but would allow you to use your discrete NVIDIA GPU to render VULKAN and OpenGL applications in a window using the command "nvidia-run".
 
