@@ -1,5 +1,5 @@
 # elementary-OS-Prime-Render-Offload
-This project contains a few scripts to enable and disable NVIDIA Prime Render Offload support for elementary OS 5.1.7 Hera.
+This project contains a few scripts to enable and disable NVIDIA Prime Render Offload support for elementary OS 5.1.7 Hera (and technically it probably would work on Ubuntu 18.04 ;P).
 
 YOU MUST USE THE LATEST PROPRIETARY NVIDIA GRAPHICS DRIVERS PROVIDED BY ELEMENTARY OS FOR THIS TO WORK!
 
