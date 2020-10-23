@@ -8,7 +8,7 @@ sudo apt-get -y autoclean
 echo "Delete nvidia-run."
 sudo rm -v /usr/local/bin/nvidia-run
 echo "Reinstall the nvidia-prime package."
-sudo apt-get -y nvidia-prime
+sudo apt-get -y install nvidia-prime
 echo "Re-enable the gpu-manager service."
 sudo systemctl enable gpu-manager.service
 echo "Reboot your computer and cross your fingers again!"
