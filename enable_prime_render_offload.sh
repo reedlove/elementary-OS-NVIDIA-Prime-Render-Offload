@@ -19,8 +19,9 @@ echo "Delete any lingering xorg.conf.d settings."
 sudo rm -v /usr/share/X11/xorg.conf.d/11-nvidia-prime.conf
 echo ""
 echo "Create the /usr/local/bin/nvidia-run utility."
-sudo echo \#\!/bin/bash > /usr/local/bin/nvidia-run
-sudo echo __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia \"\$@\" >> /usr/local/bin/nvidia-run
+sudo echo \#\!/bin/bash > nvidia-run
+sudo echo __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia \"\$@\" >> nvidia-run
+sudo mv -v nvidia-run /usr/local/bin
 sudo chmod a+x /usr/local/bin/nvidia-run
 echo ""
 echo "When you want to run something on your nvidia gpu, use nvidia-run. I.E.: nvidia-run steam"
